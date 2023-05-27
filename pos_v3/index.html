@@ -5,6 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My POS</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -32,7 +48,9 @@
           </div>
           <form action="" class="search-form">
             <label for="search">
-              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </label>
             <input type="text" id="search" />
           </form>
@@ -47,13 +65,182 @@
       </section>
 
       <main class="main">
-        <div class="container1">Container 1</div>
-        <div class="container2">Container 2</div>
-        <div class="container3">Container 3</div>
-        <div class="container4">Container 4</div>
+        <div class="item-list">
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/alcohol.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/Skin Care.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/Shirt For Man.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/shampoo.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/shampoo.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/shampoo.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/shampoo.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+
+          <div class="item-group">
+            <div class="item-img">
+              <img src="./img/shampoo.png" alt="" />
+            </div>
+            <ul class="item-data">
+              <li><span> Code </span> <span>: 20221200</span></li>
+              <li><span> Name </span> <span>: Hello World</span></li>
+              <li><span>Price </span> <span>: 20000</span></li>
+            </ul>
+          </div>
+          <div class="item-group empty-item"></div>
+        </div>
+        <div class="cart">
+          <table class="cart-table">
+            <tr>
+              <th>Item Name</th>
+              <th>QTY</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+            <tr>
+              <td>Hello World</td>
+              <td>5</td>
+              <td>100000</td>
+            </tr>
+          </table>
+        </div>
+        <div class="category">
+          <div class="category-list">
+            <button class="cat-btn">Home Decoration</button>
+            <button class="cat-btn">Beauty and Health</button>
+            <button class="cat-btn">Electronic Device</button>
+            <button class="cat-btn">Fashion</button>
+            <button class="cat-btn">Baby and Toys</button>
+            <button class="cat-btn">Other</button>
+          </div>
+        </div>
+        <div class="total-section">
+          <form action="" class="total-form">
+            <div class="total-data">
+              <span>No Of Item : 20</span>
+              <span>Grand Total : 720.91</span>
+            </div>
+            <div class="rec-amount">
+              <label for="">Received Amount</label>
+              <input type="number" />
+            </div>
+            <div class="bal-amount">
+              <label for="">Balance Amount</label>
+              <input type="number" />
+            </div>
+            <div class="cart-action-btn">
+              <button>Pay</button>
+            </div>
+          </form>
+        </div>
       </main>
     </div>
-
-    <footer></footer>
   </body>
 </html>
